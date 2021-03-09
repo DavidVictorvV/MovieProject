@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body style="background-color:darkgray;">
+    <style>
+        body {
+            background-image: url('https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/03/13153742/RT_300EssentialMovies_700X250.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 50%;
+            background-position: center;
+        }
+    </style>
+
+    <div>
+        <p style="color:black;">
+            <b> Movies list:</b>
+        </p>
+            <a class="nav-link text-dark" style="color:black;" asp-area="" asp-controller="Movies" asp-action="Index"> Click to go to movies page</a>
+    </div>
+    </body>
